@@ -24,7 +24,7 @@ To run the project, simply compile and execute the Snake_runner project.  <br/>
 Here are some screenshots of the game in action:
 
 Snake Game Screenshot 1
-![image](https://user-images.githubusercontent.com/96113739/234320084-d7c5de51-3167-4046-a6de-e28c293193af.png) <br/>
+![image](Screenshot 2024-07-29 234114.png) <br/>
 Snake Game Screenshot 2
 ![image](https://user-images.githubusercontent.com/96113739/234320123-a36b1653-5c80-47a7-a320-deed2cd14157.png)  <br/>
 # Code Only
