@@ -27,14 +27,13 @@ int main()
 		if (_kbhit()) {
 			int key = _getch();
 			int requested_direction = INVALID_DIRECTION;
-			GetAsyncKeyState(key) == 8;
 
 			switch (key)
 			{
-			case '8': requested_direction = UP; break;
-			case '2': requested_direction = DOWN; break;
-			case '4': requested_direction = LEFT; break;
-			case '6': requested_direction = RIGHT; break;
+			case 72: requested_direction = UP; break;
+			case 80: requested_direction = DOWN; break;
+			case 75: requested_direction = LEFT; break;
+			case 77: requested_direction = RIGHT; break;
 			case 'q': is_game_time = false; break;
 			}
 			if (requested_direction != INVALID_DIRECTION)
